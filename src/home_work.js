@@ -1,2 +1,4 @@
-import galleryItems from "./gallery-items.js";
+import pictures from './gallery-items.js';
 
+const gallery = document.querySelector('.js-gallery');
+console.log(gallery);
