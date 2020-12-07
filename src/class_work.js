@@ -53,8 +53,8 @@ function closeWindow() {
 
     closeModal.removeEventListener('click', closeWindow);
     overlay.removeEventListener('click', overlayClose)
-    // imgModal.src = "";
-    // imgModal.alt = "";
+    imgModal.src = "";
+    imgModal.alt = "";
 
 };
 
